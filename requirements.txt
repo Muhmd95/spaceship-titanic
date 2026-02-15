@@ -1,16 +1,8 @@
-# Web app
-streamlit==1.26.1  # أحدث نسخة متوافقة مع pandas>=3
-
-# Data handling
-pandas==2.1.0       # متوافقة مع Python 3.13 و Streamlit 1.26.1
-numpy==2.4.2
-
-# Machine learning
-scikit-learn==1.8.0
-tensorflow==2.20.0  # أول نسخة مستقرة تدعم Python 3.13
-
-# Optional for logging
-rich==14.3.2
-markdown-it-py==4.0.0
-mdurl==0.1.2
-pygments==2.19.2
+streamlit==1.26.1
+pandas==2.1.0
+numpy
+scikit-learn
+matplotlib
+seaborn
+tensorflow
+joblib
