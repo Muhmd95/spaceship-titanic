@@ -1,44 +1,61 @@
-# Python cache and compiled files
+# =========================
+# Python
+# =========================
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
 
-# Jupyter/Colab checkpoints
-.ipynb_checkpoints/
-*.ipynb
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
 
 # Virtual environments
 venv/
-.env/
-*.env
+env/
+ENV/
+.venv/
 
-# Data files (large datasets should not be pushed)
-data/*.csv
-data/*.xlsx
-data/*.json
-data/*.parquet
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
 
-# Models (ignore large trained models, keep only lightweight demo versions if needed)
-models/*.h5
-models/*.pkl
-models/*.joblib
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
 
+# =========================
+# TensorFlow / Keras
+# =========================
+*.h5
+*.keras
+*.pb
+*.ckpt
+saved_model/
+
+# =========================
+# Data files
+# =========================
+data/
+*.csv
+*.xlsx
+
+# =========================
 # Logs
+# =========================
 *.log
 
-# Streamlit config/cache
-.streamlit/
-.streamlit/secrets.toml
-.streamlit/config.toml
-
-# OS / IDE files
-.DS_Store
-Thumbs.db
+# =========================
+# IDE
+# =========================
 .vscode/
 .idea/
 
-# Temporary files
-*.tmp
-*.bak
-*.swp
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
